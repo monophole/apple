@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background: #222;
+    display: flex;
+    align-items: center;
+    color: #ddd;
+    padding: 0 10%;
+    gap: 60px;
+}
+.nav__collection{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.nav__item a{
+    color: #ddd;
+    text-decoration: none;
+}
+.active a{
+    text-decoration: underline;
+    color: dodgerblue;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home{
+    background: url(./photo_2023-06-16_20-43-56.jpg) no-repeat center/cover;
+}
+.about{
+    background: url(./photo_2023-06-16_20-47-01.jpg) no-repeat center/cover;
+}
+.blog{
+    background: url(./photo_2023-06-16_20-47-04.jpg) no-repeat center/cover;
+}
+.contact{
+    background: url(./photo_2023-06-16_20-43-56.jpg) no-repeat center/cover;
+}
+.banner h1{
+    font-size: 10vw;
+    color: #fff6;
+    user-select: none;
+}
+.about__text{
+    padding: 50px 10%;
+    color: #999;
+    line-height: 1.6;
+}

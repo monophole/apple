@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 700vh;
+    background: #000;
+}
+.navbar{
+    background: #000b;
+}
+.nav__item{
+    color: #fff;
+}
+.nav__item a, 
+.nav__link{
+    color: #fff;
+}
+.shop__now{
+    width: 100%;
+    height: 50px;
+    background:#222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.shop__now a{
+    color: dodgerblue;
+    text-decoration: none;
+}
+.intro{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 30px;
+    padding-top: 90px;
+    margin-bottom: 100px;
+}
+.ipad{
+    width: 35%;
+    height: 500px;
+    text-align: center;
+}
+.photo2{
+    transform: translateX(-200px);
+}
+.ipad p{
+    color: #fff;
+    padding-top: 120px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.ipad h2{
+    color: #fff;
+    font-size: 50px;
+}
+.banner__links{
+    display: block;
+    padding-top: 40px;
+}
+.banner__links a span{
+    font-size: 16px;
+}
+.banner__links a:hover{
+    text-decoration: underline;
+}
+.ipadpro{
+    width: 100%;
+    height: 90vh;
+}
+.theimg{
+    width: 65%;
+    height: 85vh;
+    background: url(./Images/ipad_pro_hero__bh3eq6sqfjw2_large.jpg) no-repeat center/cover;
+    margin: auto;
+    margin-right: 90px;
+}
+.ipadpro h2, 
+.price{
+    color: #fff;
+}
+.box{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-150px) translateY(140px);
+}
+.new{
+    color: rgb(234, 93, 43);
+}
+.box h1{
+    color: #fff;
+    font-size: 50px;
+}
+.info{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+.btn{
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius:20px;
+    border:1px solid dodgerblue;
+    background: dodgerblue;
+    color: #fff;
+}
+.btn:hover{
+    background: rgb(69, 152, 234);
+}
+.banner__links a:hover{
+    text-decoration: underline;
+}
+.banner__links{
+    transform: translateY(-30px);
+}
